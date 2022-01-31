@@ -182,13 +182,13 @@ main{
 .cuadro{
     z-index: 3;
     opacity: 0.99;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url("../img/pxArt2.png");
     position: absolute;
     top: 0;
     right: 0;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     div{
         margin: 10% 25%;

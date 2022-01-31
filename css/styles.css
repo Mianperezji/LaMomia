@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: auto;
+  height: 86vh;
+  background-image: url("../img/pxArt2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main div {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.premio {
+  background-color: yellow;
+}
+
+.camino {
+  background-color: black;
+}
+
+.huella {
+  background-size: cover;
+}
+.huellaleft {
+  background-image: url("../img/huella_izq.png");
+}
+.huellaright {
+  background-image: url("../img/huella_der.png");
+}
+.huelladown {
+  background-image: url("../img/huella_down.png");
+}
+.huellaup {
+  background-image: url("../img/huella_up.png");
+}
+
+#player {
+  background-image: url("../img/personaje_arr1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tablero {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  margin: 5% 24%;
+  background-color: yellow;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.pergamino {
+  width: 299%;
+  height: 199%;
+  background-image: url("../img/pergamino.png");
+  overflow: visible;
+  z-index: 3;
+}
+
+.tesoro {
+  width: 299%;
+  height: 199%;
+  background-image: url("../img/tesoro.png");
+  overflow: visible;
+  z-index: 3;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.llave {
+  width: 299%;
+  height: 199%;
+  background-image: url("../img/llave.png");
+  overflow: visible;
+  z-index: 3;
+}
+
+.sarcofago {
+  width: 299%;
+  height: 199%;
+  background-image: url("../img/sarcofago.png");
+  overflow: visible;
+  z-index: 3;
+}
+
+.nada {
+  width: 299%;
+  height: 199%;
+  overflow: visible;
+  z-index: 3;
+  background-size: cover;
+}
+
+.momiaDespierta {
+  overflow: hidden;
+}
+.momiaDespierta div {
+  display: block;
+  position: absolute;
+  background-image: url("../img/despiertaMomia.png");
+  bottom: -50px;
+  background-size: cover;
+  transition: bottom 5s;
+  width: 100%;
+  height: 100%;
+}
+
+.momia {
+  background-image: url("../img/momiaDer.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#HUD {
+  background-image: url("../fondos/hud.jpg");
+  background-size: contain;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#HUD #score {
+  display: inline;
+}
+#HUD #cajavidas {
+  display: inline;
+  width: auto;
+}
+#HUD #cajavidas #vidas {
+  display: inline;
+  width: auto;
+  background-color: black;
+}
+#HUD #cajavidas #vidas div {
+  display: inline-block;
+  background-image: url("../img/heart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.cuadro {
+  z-index: 3;
+  opacity: 0.99;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/pxArt2.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cuadro div {
+  margin: 10% 25%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: 900;
+  background-color: aliceblue;
+}
+.cuadro button {
+  margin: 10% 40%;
+  height: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
